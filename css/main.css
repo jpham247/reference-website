@@ -1,0 +1,65 @@
+/********************************
+*     Global Styling     *
+*********************************/
+a, a:visited {
+	text-decoration: none;
+	color : white;
+}
+
+h3 {
+	text-decoration: underline;
+	text-align : center;
+}
+
+/********************************
+*     Header / Foot Styling     *
+*********************************/
+header, footer {   
+	background-color : #6ab47b; /*Declaration*/
+	border : 5px solid #599a68 ;
+}
+
+/********************************
+*     Main Body Styling     *
+*********************************/
+body {
+	background-color : linen;
+	font-family : 'Arial', sans-serif;
+}
+
+main {
+	background-color : lightgrey;
+	max-width : 1024px;
+	margin : 0% auto;
+}
+
+
+nav a.selected, nav a:hover {
+	color : darkgreen;
+}
+/* <element_selector>:<psuedoclass> */
+
+
+
+#logo, nav {
+	text-align : center;
+	background: #599a68;
+	margin : 0 0;
+	padding : 0 0;
+}
+
+#text-decoration {
+	border : 2px dashed black;
+	margin: 0% auto; /* 1st value = top/bottom, 2nd value = left/right (auto centers it)*/
+	padding: 2% 2%;
+	max-width : 50%;
+	text-align : center;
+}
+
+#text-size {
+	font-size: 1.5em;
+}
+
+
+
+/* Hash #<id> selects IDs on the page*/

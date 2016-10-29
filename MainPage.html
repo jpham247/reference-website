@@ -5,6 +5,7 @@
 <head>
 <!-- Heading Section -->
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 	<style>
 	/*Insert In-Line CSS Here*/
 		/**
@@ -16,16 +17,13 @@
 		 */
 
 	  /*Rule*/
-		footer {   
-			color : green; /*Declaration*/
-		}
-
 		/*Descendant Selector*/
-		nav a {
-			color : white;
-			background-color : orange;
-			text-decoration: none;
-		}
+		/*	nav a {
+					color : white;
+					background-color : orange;
+					text-decoration: none;
+				}
+		*/
 
 	</style>
 	
@@ -41,7 +39,9 @@
 <!-- Main Body of Site -->
 	<header>
 		<!-- Page Header Section -->
-		<h1>Heading Level-1</h1>
+		<a href="MainPage.html" id="logo">
+			<h1>Heading Level-1</h1>
+		</a>
 	
 		<nav> <!-- Semantic navigation Identifier-->
 		<ul>
@@ -52,11 +52,42 @@
 		</nav>
 	</header>
 	
-	<section>
-		<a href="somewhere.html">Anchor aka. Hyperlink</a>
-		<p>Main Section Goes Here.</p>
-	</section>
-	
+	<main>
+		<section>
+
+			<h2>First Section - Simple Text</h2>
+			<a href="somewhere.html">Anchor aka. Hyperlink</a>
+			<p>Main Section Goes Here.</p>
+			
+			<h3>Text Decorators</h3>
+			<div id="text-decoration">
+
+				<p>
+				Let's make text <b>bold</b>.<br>
+				Let's make text <em>italic</em>.<br>
+				Let's <u>underline</u> text.<br>
+				<s>Strikethrough</s><br>
+				log<sub>10</sub> • 2<sup>10</sup><br>
+				</p>
+			</div>
+
+			<div id="text-size">
+				<h3>Playing with text size</h3>
+				<p> I want this text to be 1.5 times the normal font size.</p>
+			</div>
+		
+		</section>
+
+		<section>
+			<h2>2nd Section - Lists</h2>
+			<p>Ordered lists</p>
+			<ol>
+				<li>Line Item 1</li>
+				<li>Line Item 2</li>
+				<li>Line Item 3</li>
+			</ol>
+		</section>
+	</main>
 	<footer>
 		<!-- Footer for Site -->
 		<hr>
